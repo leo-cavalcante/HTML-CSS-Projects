@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <title>L'annuaire des startups</title>
+
+    <style>
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .title {
+        color: dodgerblue;
+        background-color: Gainsboro;
+      }
+      
+      .intro {
+        color: white;
+        background-color: dodgerblue;
+      }
+
+      .leo_perso {
+        color: DarkGray;
+      }
+
+      .row {
+        display: flex;
+        height: 350px;
+      }
+
+      .column {
+        width: 30%;
+        border-style: solid;
+        padding: 10px 10px 10px 10px;
+      }
+
+      .logo {
+        text-align: center;
+      }
+
+      .footer {
+        background-color: DarkGray;
+        color: white;
+        text-align: center;
+      }
+
+      .pagination {
+        display: inline-block;
+        transition: background-color .3s;
+      }
+
+      .pagination a {
+        color: black;
+        float: left;
+        padding: 4px 4px;
+        text-decoration: none;
+      }
+
+      .pagination a.active {
+        background-color: #4CAF50;
+        color: white;
+      }
+
+      .pagination a:hover:not(.active) {
+        background-color: DodgerBlue;
+        color: white;
+      }
+
+      .button {
+        text-align: center;
+        text-color: blue;
+        box-sizing: border-box;
+        width: 25px;
+        height: 25px;
+        border: 1px solid black;
+        margin: 3px;
+        background-color: white;
+        border-radius: 5px;
+      }
+
+    </style>
+
+  </head>
+
+    
+  <head>
+    <h1 class=title> L'annuaire des startups </h1>
+    
+    <p class=intro>Ceci est un annuaire des startups à forte croissance dans la Tech</p>
+    
+    <p class=leo_perso>Quelle startup serait en mesure d'embaucher des nouveaux Business Developers ?</p>
+    
+    <div id=grid>
+      <div class=row>
+        <div class=column>
+          <img class=logo src="https://uploads-ssl.webflow.com/5a8c073cf444f00001264168/5a8c14daf444f0000126500f_LOGO%402x.png" width="150">
+          <h3>TheAssistant</h3>
+          <h4>Inteligence Artificielle</h4>
+          <p>Assistant intelligent à la demande combinant assistants français qualifiés et automatisation.</p>
+        </div>
+        <div class=column>
+          <img class=logo src="https://uploads-ssl.webflow.com/5b8d36c92232e271c10eab37/5c386115c4f69fa071ffcfe3_BigblueLogo.png" width="150">
+          <h3>BigBlue</h3>
+          <h4>Logistique</h4>
+          <p>We turn your logistics into a growth lever!
+          Next-gen logistics provider and customer-experience toolkit for your e-commerce.</p>
+        </div>
+        <div class=column>
+           <img class=logo src="https://360learning.com/static/img/360learning-logo.e99e3e0d4e.svg" width="150">
+          <h3>360learning</h3>
+          <h4>EdTech</h4>
+          <p>Provides L&D teams with the tools they need to crowdsource & prioritize learning needs, the in-house experts who can solve them, and coach them through the course creation process.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id=grid>
+      <div class=row>
+        <div class=column>
+          <img class=logo src="https://upload.wikimedia.org/wikipedia/fr/2/23/Payfit_logo_blue.png" width="150">
+          <h3>PayFit</h3>
+          <h4>Payroll & HR</h4>
+          <p>An integrated payroll and HR management software.</p>
+        </div>
+        <div class=column>
+          <img class=logo src="https://lamaisondesstartups.lvmh.com/wp-content/uploads/2019/12/skello.png" width="150">
+          <h3>Skello</h3>
+          <h4>HR Planning & Payroll</h4>
+          <p>Optimisez votre gestion de personnel et libérez votre emploi du temps.</p>
+        </div>
+        <div class=column>
+          <img class=logo src="https://image4.owler.com/logo/ibanfirst_owler_20181115_014845_original.png" width="150">
+          <h3>iBanFirst</h3>
+          <h4>Financial Services</h4>
+          <p>iBanFirst provides international payment solutions based on cutting-edge technology that give companies full control on foreign exchange and payments.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id=grid>
+      <div class=row>
+        <div class=column>
+          <img class=logo src="https://res-5.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco/vjhihedjd1crjchtwqtc" width="150">
+          <h3>Pricemoov</h3>
+          <h4>Pricing management and optimisation software</h4>
+          <p>Pricemoov helps you save time in price management and optimization, and unlock all your revenue potential.</p>
+        </div>
+        <div class=column>
+          <img class=logo src="https://cdb.fr/wp-content/uploads/2019/02/WTTJ.png" width="150">
+          <h3>Welcome to the Jungle</h3>
+          <h4>Media, Recruitment</h4>
+          <p>Le média de référence dédié à l'emploi qui a pour mission d’accompagner chaque personne dans son développement professionnel.</p>
+        </div>
+        <div class=column>
+          <img class=logo src="https://alven.co/wp-content/uploads/2013/09/openclassroom.svg" width="150">
+          <h3>OpenClassrooms</h3>
+          <h4>EdTech</h4>
+          <p>OpenClassrooms est une école en ligne offrant des parcours diplômants et professionnalisants pour vous aider à bâtir votre avenir.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class=pagination>
+      <a class=button href="#">1</a>
+      <a class=button href="#">2</a>
+      <a class=button href="#">3</a>
+      <a class=button href="#">4</a>
+      <a class=button href="#">5</a>
+    </div>
+    
+    <div class=footer>
+      Mentions légales <br />
+      Information de contact: <a href="mailto:leonardo.cavalcantearaujo@essec.edu"> lcavalcante-0920@humindschool.com</a> <br />
+    </div>
+
+  </body>
+</html>
